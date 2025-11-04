@@ -5,11 +5,17 @@ export default function Contact() {
       <p className="mb-6">Let’s build something great together!</p>
       <a
         href="mailto:the.sst12@gmail.com"
-        className="bg-blue-500 px-6 py-3 rounded text-white hover:bg-blue-600"
+        className="bg-blue-500 px-6 py-3 rounded text-white hover:bg-blue-600 mr-5"
       >
         Contact Me
       </a>
-      <p className="mt-5">Tel: 020 58419955</p>
+      <a
+        href="https://wa.me/02058419955"
+        target="_blank"
+        className="bg-blue-500 px-6 py-3 rounded text-white hover:bg-blue-600"
+      >
+        020 58419955
+      </a>
     </section>
   );
 }
